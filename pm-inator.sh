@@ -14,4 +14,4 @@ bash fetch_repo_names.sh "$org" "$prefix" | while read name; do
 	rm -rf "tmp/$prefix$name"
 done
 
-python3 pm-inator.py "$message: <https://cloud.uniks.de/apps/files/?dir=/se-all/PM/WT2021/$homework>"
+python3 pm-inator.py "$message: <https://cloud.uniks.de/apps/files/?dir=/se-all/PM/WT2021/Archive/$homework>"
